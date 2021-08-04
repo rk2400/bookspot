@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myself.css">
+    <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/black-and-white-business/32/i27_business-512.png">
+    <title>Myself</title>
+</head>
+<body onload="move()">
+    <div class="head"><img src="images/me.jpeg" width="250"></div>
+    <div class="name">
+    <h1 id="titlen"><center>Rachit Khurana</center></h1>
+    <h2 id="q"><center>Creator of This Website</center></h2>
+    </div>
+    <div class="navbar">
+      <div class="item" id="item-1"><a href="index.html">Home</a></div>
+      <div class="item" id="item-2"><a href="fiction.html">Fiction</a></div>
+      <div class="item" id="item-3"><a href="nonfiction.html">Non Fiction</a></div>
+      <div class="item" id="item-4"><a href="author.html">Authors</a></div>
+      <div class="item" id="item-4"><a href="myself.html" class="current">Myself</a></div>
+    </div>
+    <div class="trans">
+        <p class="touch">Touch This Box</p>
+        <div id="box">
+            Welcome To My Website!<br>
+            Have a Good Day!
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>About Me:</h1>
+        <p class="text">Hello, My name is Rachit Khurana. I am a 2nd year college student. This is my first ever Website. There are many interesting features I've added just like this box placed above. You can buy any book from the amazon links I've provided. Also don't forget to check out my favorite books listed below. To purchase them, simply click on them and you'll be redirected to the shopping page </p>
+        <h1>My Favorite Books:</h1>
+        <p>
+            <ul>
+                <li><a href="https://www.flipkart.com/power-your-subconscious-mind/p/itmfc599jmcfhhwm?pid=9788192910963&lid=LSTBOK9788192910963MJHFLY&marketplace=FLIPKART&q=power+of+subconscious+mind&store=bks&spotlightTagId=BestvalueId_bks&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_10_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_10_na_na_ps&fm=SEARCH&iid=e8661d36-7d30-4850-9254-f5014e4dca78.9788192910963.SEARCH&ppt=sp&ppn=sp&ssid=c4265vnba80000001615724048032&qH=60433682fc174a9d" target="_blank">Power of Subconsious Mind</a></li>
+                <li><a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=sr_1_1?crid=KONHJEZJI3Y5&dchild=1&keywords=atomic+habits&qid=1615724101&sprefix=atomic%2Caps%2C319&sr=8-1" target="_blank">Atomic Habits</a></li>
+                <li><a href="https://www.amazon.in/Attitude-Everything-Change-Your-Life/dp/9351772071/ref=sr_1_1?crid=3TLTQQCL5PL8W&dchild=1&keywords=attitude+is+everything&qid=1615724144&sprefix=attitu%2Caps%2C338&sr=8-1" target="_blank">Attitude is Everything</a></li>
+                <li><a href="https://www.amazon.in/Power-Now-Guide-Spiritual-Enlightenment/dp/8190105914/ref=sr_1_3?dchild=1&keywords=power+of+now&qid=1615724120&sr=8-3" target="_blank">Power of Now</a></li>
+                <li><a href="https://www.flipkart.com/inner-engineering-yogi-s-guide-joy/p/itmez68byzy76q5s?pid=9780143428848&lid=LSTBOK9780143428848RHPXPO&marketplace=FLIPKART&q=inner+engineering&store=bks&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&fm=SEARCH&iid=dd7097ef-956c-4cfe-8779-bb618b9111a4.9780143428848.SEARCH&ppt=hp&ppn=homepage&ssid=cafhhu929c0000001615723991937&qH=28c502618ad912ec" target="_blank">Inner Engineering</a></li>
+            </ul>
+        </p>
+    </div>
+    <div class="form">
+        <h2>Write To Me</h2>
+        <div class="work">
+            <center><form>
+                <h2>NAME</h2>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <h2>COUNTRY: </h2>
+                <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="aus">Australia</option>
+                    <option value="usa">U.S.A</option>
+                    <option value="england">England</option>
+                </select>
+                <h2>GENDER: </h2>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <h2>SUGGESTIONS: </h2>
+                <textarea rows="10" cols="100" placeholder="Write your concern"></textarea>
+                <br>
+                <button type="button" onclick="ch()" id="btn">SUBMIT</button>
+                <p id="text"></p>
+            </form></center>
+        </div>
+    </div>   
+    <div class="connect">
+        <center>
+        <h2>Connect With Me</h2>
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"> </a>
+        <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/rachit_24/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/rachit-khurana-3ba9ba188/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+        <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat"></a>
+        <a href="https://www.skype.com/en/" target="_blank" class="fa fa-skype"></a>
+        </center>
+    </div>
+    <script>
+        function ch(){
+            alert('Your Query has been successfully submitted!')
+            document.getElementById('text').innerHTML = "Thanks for writing to me!";
+        }
+        function move(){
+            document.getElementById("titlen").style.left= "50%";
+            document.getElementById("q").style.left="50%";
+            document.getElementById("titlen").style.fontSize= "40px";
+            document.getElementById("q").style.fontSize="30px"; 
+            document.getElementById("titlen").style.color= "brown";
+            document.getElementById("q").style.color="purple";  
+      } 
+    </script>
+</body>
+<footer>
+    <hr>
+    <i class="fa fa-phone" style="font-size:36px"></i>9910124855 <br>
+    <i class="fa fa-envelope" style="font-size:36px"></i>rachitkhurana382@gmail.com
+    <hr>
+    <pre>All rights reserved. &copy;</pre>
+</footer>
+</html>

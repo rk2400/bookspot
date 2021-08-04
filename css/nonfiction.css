@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url(../images/non.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.current{
+  background-color: black;
+  color: white;
+}
+
+.title {
+  position: absolute;
+  font-size: 90px;
+  color: rgb(238, 100, 9);
+  top: 35%;
+  left: 30%;
+  transition: ease 2s;
+  transform: translate(-50%, -50%);
+}
+
+header ul {
+  float: right;
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  font-size: 30px;
+  transition: 0.2s ease-in;
+}
+
+header ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.quote {
+  font-size: 50px;
+  position: absolute;
+  color: rgb(15, 15, 14);
+  top: 60%;
+  left: 40%;
+  transition: ease 2s;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/2088203/pexels-photo-2088203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-1 {
+  /* border: 2px black solid; */
+  margin-top: 30px;
+  height: auto;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.container-2 {
+  /* border: 2px black solid; */
+  margin-top: 30px;
+  height: auto;
+}
+
+.container-3 {
+  /* border: 2px black solid; */
+  margin-top: 30px;
+  height: auto;
+}
+
+.thumbnail img {
+  display: flex;
+  flex-direction: row-reverse;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  width: 163px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.section {
+  /* order: 2px black solid; */
+  display: flex;
+  height: 390px;
+  overflow-y: auto;
+}
+
+.section-l {
+  /* border: 2px black solid; */
+  height: 390px;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: row-reverse;
+}
+
+.thumbnail-l img {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  width: 163px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.amazon {
+  text-decoration: none;
+  color: skyblue;
+  border: 2px black solid;
+  margin-left: 15px;
+  background-color: blue;
+}
+.amazon:hover {
+  color: rgb(251, 255, 0);
+  background-color: darkblue;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(40, 13, 104);
+}
+
+h2 {
+  color: black;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  height: 150px;
+  padding-top: 50px;
+  background-image: url("https://images.unsplash.com/photo-1517056338492-cb43f18f72a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcml6b250YWwlMjB3YWxscGFwZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+  background-size: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: -8px;
+  color: rgb(0, 0, 0);
+}
+
+i {
+  color: black;
+}
+
+p {
+  margin: 10px;
+  text-align: justify;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li {
+  margin: 10px;
+}
+
+li a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(219, 10, 80);
+  font-size: 21px;
+}
+
+li a:hover {
+  color: black;
+  background-color: lightblue;
+}
+
+.paras {
+  padding-left: 20px;
+  color: rgb(192, 3, 3);
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.paras-l {
+  padding-right: 25px;
+  color: rgb(192, 3, 3);
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@media only screen and (max-width: 490px) {
+  h1 {
+    text-align: center;
+    padding-top: 30px;
+    height: 100px;
+    font-size: 30px;
+    background-size: 100%;
+  }
+  .item {
+    text-align: center;
+    font-size: 19px;
+    width: 100px;
+    height: 20px;
+    margin-top: 16px;
+    padding: 1px;
+  }
+  .section {
+    border: 2px black solid;
+    height: 640px;
+  }
+
+  .section-l {
+    border: 2px black solid;
+    height: 640px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+  .thumbnail img {
+    width: 100px;
+    height: 200px;
+  }
+  .thumbnail-l img {
+    width: 100px;
+    height: 200px;
+  }
+}
